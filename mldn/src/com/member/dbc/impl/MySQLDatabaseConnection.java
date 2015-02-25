@@ -2,7 +2,7 @@ package com.member.dbc.impl;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
-import com.neilpro.dbc.DatabaseConnection;
+import com.member.dbc.*;
 
 public class MySQLDatabaseConnection implements DatabaseConnection{
 	private static final String DBDRIVER="org.gjt.mm.mysql.Driver";

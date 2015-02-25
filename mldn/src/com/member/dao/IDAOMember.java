@@ -8,5 +8,5 @@ public interface IDAOMember {
 	public Member findById(String mids)throws Exception;
 	public boolean doUpdate(Member member)throws Exception;
 	public boolean doDelete(String mids) throws Exception;
-	public boolean updateDate(String mids)throws Exception;
+	public boolean updateDate(String mids,Date lastdate)throws Exception;
 }

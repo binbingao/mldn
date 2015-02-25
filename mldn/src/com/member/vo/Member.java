@@ -50,5 +50,8 @@ public class Member {
 	public void setLastdate(Date lastdate) {
 		this.lastdate = lastdate;
 	}
+	public String toString(){
+		return mids+" "+pword+" "+name+" "+address+" "+telephone+" "+zipcode+" "+lastdate;
+	}
 	
 }
